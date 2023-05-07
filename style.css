@@ -1,0 +1,85 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .task-list li .task {
+    flex: 1;
+  }
+  
+  .task-list li .actions {
+    display: flex;
+  }
+  
+  .task-list li .actions a {
+    padding: 5px 10px;
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 3px;
+  }
+  
+  .task-list li .actions a.button-complete {
+    background-color: #2980b9;
+    color: #fff;
+  }
+  
+  .task-list li .actions a.button-delete {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .task-list li .actions a.button-complete:hover,
+  .task-list li .actions a.button-delete:hover {
+    background-color: #333;
+  }
